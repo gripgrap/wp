@@ -138,7 +138,7 @@ const routes = [
 ];
 const router = createRouter({
     // 라우트 생성
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes,
 });
 export default router;
